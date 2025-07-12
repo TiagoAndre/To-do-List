@@ -1,0 +1,15 @@
+input {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 0px;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+input[type="color"] {
+    height: 40px;
+    padding: 5px 24px;
+}

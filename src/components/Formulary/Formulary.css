@@ -1,0 +1,25 @@
+.formulary {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    /* centraliza horizontalmente */
+    max-width: 600px;
+}
+
+.formulary button {
+    background: #6278F7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 12px;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.formulary button:hover {
+    color: #62f5ff;
+}

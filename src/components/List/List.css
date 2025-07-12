@@ -1,0 +1,77 @@
+.tasks-container{
+
+  margin: 36px;
+  padding: 24px;
+}
+
+.bar-tools{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-tools select{
+  background-color: #6278F7;
+  color: white;
+  border-radius: 10px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.toggle-view-btn {
+  padding: 8px 24px;
+  font-size: 12px;
+  background: #6278F7;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.toggle-view-btn:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.list-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ou 4, se quiser 4 colunas */
+  gap: 20px;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+
+.list {
+  margin-top: 20px;
+  display: block;
+
+}
+
+.no-task {
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 36px;
+}
+
+@media (max-width: 1024px) {
+  .list-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .list-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .list-card {
+    grid-template-columns: 1fr;
+  }
+}

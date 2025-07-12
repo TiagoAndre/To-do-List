@@ -1,0 +1,45 @@
+.item-list {
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  padding: 24px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+
+.list p {
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.mark {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 20px;
+  height: 30px;
+  /* background-color: rgb(207, 121, 22); */
+  clip-path: polygon(
+    0 0,        /* topo esquerdo */
+    100% 0,     /* topo direito */
+    100% 100%,  /* base direita */
+    50% 75%,    /* recorte central */
+    0 100%      /* base esquerda */
+  );
+}
+
+.tool-list {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.list-complete {
+  opacity: 0.5;
+}
